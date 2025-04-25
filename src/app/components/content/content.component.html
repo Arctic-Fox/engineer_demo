@@ -1,0 +1,11 @@
+<html>
+    <body>
+        <table class="navbar">
+            <tr *ngFor="let article of articles">
+                <td class="content-panel" id={{article.section}}> {{article.content}}
+                    <p></p>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
